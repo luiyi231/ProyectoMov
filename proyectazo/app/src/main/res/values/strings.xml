@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">proyectazo</string>
+    <string-array name="categorias_array">
+        <item>Laptop</item>
+        <item>Tablet</item>
+        <item>Smartphone</item>
+    </string-array>
 </resources>

@@ -6,6 +6,16 @@
     android:gravity="center"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a la Gestión de Dispositivos"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"/>
     <Button
         android:id="@+id/btnGestion"
         android:layout_width="match_parent"

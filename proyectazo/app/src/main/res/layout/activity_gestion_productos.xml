@@ -18,17 +18,30 @@
         android:hint="Precio"
         android:inputType="numberDecimal" />
 
-    <EditText
-        android:id="@+id/edtCategoria"
+    <Spinner
+        android:id="@+id/spinnerCategoria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Categoría" />
+        android:entries="@array/categorias_array"/>
+
 
     <Button
         android:id="@+id/btnAgregar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Agregar Producto" />
+    <Button
+        android:id="@+id/btnFiltrarCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtrar por Categoría" />
+    <Button
+        android:id="@+id/btnFiltrarPorNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtrar por Nombre"
+        android:layout_marginTop="16dp"/>
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"

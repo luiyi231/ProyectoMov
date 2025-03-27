@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Título superior -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtrar por Nombre"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <!-- EditText para ingresar el nombre del producto -->
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa el nombre del producto"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:padding="12dp"/>
+
+    <!-- Botón para filtrar -->
+    <Button
+        android:id="@+id/btnFiltrarPorNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filtrar"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"/>
+
+    <!-- TextView para mostrar el resultado -->
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados aquí"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:visibility="gone"/>
+</LinearLayout>
